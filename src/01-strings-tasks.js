@@ -308,6 +308,10 @@ function encodeToRot13(str) {
  */
 function isString(/* value */) {
   throw new Error('Not implemented');
+
+/*  if (typeof value === 'string') {
+    return true;
+  } return false; */
 }
 
 
@@ -337,6 +341,12 @@ function isString(/* value */) {
  */
 function getCardId(/* value */) {
   throw new Error('Not implemented');
+
+/*  const result = [];
+  for (let i = 0; i < value.length; i += 1) {
+    result.push(value[i]);
+  }
+  return result; */
 }
 
 
